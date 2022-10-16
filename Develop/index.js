@@ -9,38 +9,38 @@ inquirer.prompt(
             type: "input",
             message: "What's the project title?",
             name: "projectTitle",
-            validate: (value) => {if (value){return true} else {return "Need a value to contrinue!"}}
+            validate: (value) => {if (value){return true} else {return "Need a value to continue!"}}
         },
         {
             type: "input",
             message: "Write a brief description of your project.",
             name: "description",
-            validate: (value) => {if (value){return true} else {return "Need a value to contrinue!"}}
+            validate: (value) => {if (value){return true} else {return "Need a value to continue!"}}
         },
         {
             type: "input",
             message: "How to install your app?",
             name: "installation",
-            validate: (value) => {if (value){return true} else {return "Need a value to contrinue!"}}
+            validate: (value) => {if (value){return true} else {return "Need a value to continue!"}}
         },
         {
             type: "input",
             message: "How to use your app?",
             name: "usage",
-            validate: (value) => {if (value){return true} else {return "Need a value to contrinue!"}}
+            validate: (value) => {if (value){return true} else {return "Need a value to continue!"}}
         },
         {
             type: "input",
             message: "Any credits?",
             name: "credits",
-            validate: (value) => {if (value){return true} else {return "Need a value to contrinue!"}}
+            validate: (value) => {if (value){return true} else {return "Need a value to continue!"}}
         },
         {
             type: "list",
             message: "License used?",
             name: "license",
             choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open", "Other license", "N/A"],
-            validate: (value) => {if (value){return true} else {return "Need a value to contrinue!"}},
+            validate: (value) => {if (value){return true} else {return "Need a value to continue!"}},
         }
     ]
 ).then(({
